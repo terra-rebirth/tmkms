@@ -240,6 +240,9 @@ limitations under the License.
 
 [Tendermint]: https://tendermint.com/
 [Cosmos Validators]: https://cosmos.network/docs/gaia/validators/validator-faq.html
+
+tmkms init -n columbus ~/.tmkms
+tmkms start -c /home/chaiya/.tmkms/tmkms.toml
 [YubiHSM2]: https://github.com/iqlusioninc/tmkms/blob/main/README.yubihsm.md
 [Ledger]: https://www.ledger.com/
 [ed25519-dalek]: https://github.com/dalek-cryptography/ed25519-dalek
